@@ -15,7 +15,6 @@ USE {nom_bd};\n''')
 
 for par in laliga_EA_Sports:
     nom_Equipo,ID=par
-    nom_Equipo = nom_Equipo.replace(" ", "_")
 
 #con acentos graves (cadena) para que R. no de error
     print(f'''CREATE TABLE `{nom_Equipo}` (
