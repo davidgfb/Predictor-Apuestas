@@ -13,7 +13,7 @@ servidor
 '''
 
 # Definir la lista de equipos
-ns_Equipos_Top_Wanted,topWanted,\
+ns_Equipos_Most_Wanted,mostWanted,\
 ns_Equipos_Laliga_EA_Sports,laliga_EA_Sports=(45, 73, 241, 243),{},\
                                              (240, 241, 243, 448,
                                               449, 450, 452, 453,
@@ -63,4 +63,8 @@ print(sorted(dicc_Actual.items(), key=lambda x:x[1]))
 ('Rayo Vallecano', 480), ('Sevilla FC', 481),
 ('Villarreal CF', 483), ('Getafe CF', 1860),
 ('CD Leganés', 100888), ('Girona FC', 110062)]
+
+mostWanted
+[('Juventus', 45), ('Paris SG', 73), ('FC Barcelona', 241),
+('Real Madrid', 243)]
 '''
